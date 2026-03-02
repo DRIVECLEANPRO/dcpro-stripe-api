@@ -10,8 +10,9 @@ IMPORTANT :
 Remplis ici EXACTEMENT les IDs produits envoyés par ton panier.
 */
 const CATALOG = {
-  // Exemple test (à remplacer par tes vrais produits)
-  "test-1": { name: "Produit Test", price: 10.00 }
+  "green_star_1L": { name: "Green Star — Koch Chemie", price: 7.95 },
+  "green_star_5L": { name: "Green Star — Koch Chemie", price: 34.00 },
+  "green_star_10L": { name: "Green Star — Koch Chemie", price: 58.80 }
 };
 
 
