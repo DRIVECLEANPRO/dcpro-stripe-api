@@ -37,9 +37,12 @@ function shippingCost(subtotal, liters) {
   if (subtotal <= 0) return 0;
   if (subtotal >= SHIP_FREE_FROM) return 0;
 
-  if (liters <= 2) return 6.90;
-  if (liters <= 5) return 9.90;
-  return 14.90;
+  const kg = liters; // 1L ≈ 1kg
+  if (kg <= 6)  return 6;
+  if (kg <= 11) return 9;
+  if (kg <= 16) return 11;
+  if (kg <= 21) return 13;
+  return 18;
 }
 
 
