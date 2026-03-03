@@ -10,9 +10,23 @@ IMPORTANT :
 Remplis ici EXACTEMENT les IDs produits envoyés par ton panier.
 */
 const CATALOG = {
-  "green_star_1L": { name: "Green Star — Koch Chemie", price: 7.95 },
-  "green_star_5L": { name: "Green Star — Koch Chemie", price: 34.00 },
-  "green_star_10L": { name: "Green Star — Koch Chemie", price: 58.80 }
+  green_star_1L: { name: "Green Star — Koch Chemie (1L)", price: 7.95 },
+  green_star_5L: { name: "Green Star — Koch Chemie (5L)", price: 34.00 },
+  green_star_10L: { name: "Green Star — Koch Chemie (10L)", price: 58.80 },
+
+  glass_cleaner_1L: { name: "Glass Cleaner — Vitres (1L)", price: 9.85 },
+  glass_cleaner_10L: { name: "Glass Cleaner — Vitres (10L)", price: 51.85 },
+
+  pol_star_1L: { name: "Pol Star — Textile (1L)", price: 10.95 },
+  pol_star_5L: { name: "Pol Star — Textile (5L)", price: 44.00 },
+
+  interior_dressing_fresso_500ml: { name: "Interior Dressing — Fresso (500ml)", price: 10.99 },
+  interior_dressing_fresso_1L: { name: "Interior Dressing — Fresso (1L)", price: 16.99 },
+  interior_dressing_fresso_5L: { name: "Interior Dressing — Fresso (5L)", price: 58.95 },
+
+  fresh_up_1L: { name: "Fresh Up — Désodorisant (1L)", price: 17.95 },
+
+  leather_star_1L: { name: "Leather Star — Soin cuir (1L)", price: 17.95 }
 };
 
 
